@@ -322,9 +322,6 @@ footer{
 }
 
 @media(max-width: 850px){
-    header{
-        
-    }
     .Intro{
         margin-bottom: 200px;
         margin-left: 40px;
