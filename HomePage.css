@@ -43,6 +43,9 @@ header .text a:hover{
     transition: color .3s;
     cursor: pointer;
 }
+header .menu{
+    display: none;
+}
 
 body{
     background-color: #6C7D9E;
@@ -107,8 +110,8 @@ body{
 
 .About .left{
     width: 50%;
-    margin-left: 100px;
-    margin-right: 25px;
+    padding-left: 100px;
+    padding-right: 25px;
 }
 
 .About .right{
@@ -324,6 +327,7 @@ footer{
     }
     .Intro{
         margin-bottom: 200px;
+        margin-left: 40px;
     }
     .Intro .right img{
         display: none;
@@ -337,10 +341,13 @@ footer{
     .About .left{
         margin-bottom: 50px;
         width: 80%;
-        padding-right: 100px;
+        padding-left: 40px;
     }
     .About .right{
-        margin-left: 50px;
+        padding-left: 40px;
+    }
+    .Projects{
+        padding-left: 40px;
     }
     .Projects .project{
         flex-direction: column;
@@ -354,6 +361,7 @@ footer{
     }
     .Qual{
         flex-direction: column;
+        padding-left: 40px;
     }
     .Qual .left{
         width: 100%;
@@ -404,4 +412,47 @@ footer{
     .Projects .project .text{
         transition: .3s;
     }
+}
+@media(max-width: 560px){
+    header .text{
+        display: none;
+    }
+    header .menu{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    header .menu p{
+        transition: color 0.3s ease;
+        text-align: right;
+        padding-right: 21%;
+    }
+    
+    header .menu a:hover{
+        color:rgb(98, 206, 248);
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        transition: color .3s;
+        cursor: pointer;
+    }
+    ul{
+        list-style: none;
+        background-color: #000;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+    .dropdown{
+        width: 50%;
+        float: right;
+        display: none;
+    }
+    .menu:hover ul.dropdown{
+        display: block;
+    }
+
 }
