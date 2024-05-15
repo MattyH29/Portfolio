@@ -144,8 +144,11 @@ body{
 
 .Projects{
     padding-top: 100px;
-    padding-left: 100px;
     padding-right: 20px;
+}
+
+.Projects h1{
+    padding-left: 100px;
 }
 
 .Projects .project{
@@ -156,7 +159,6 @@ body{
 }
 
 .Projects .project .image{
-    padding-left: -100px;
     width: 50%;
     align-content: center;
 }
