@@ -136,14 +136,10 @@ body{
     align-content: center;
 }
 
-.About .right .col1{
+.About .right .row{
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-.About .right .col2{
-    display: flex;
-    flex-direction: row;
 }
 
 .Projects{
