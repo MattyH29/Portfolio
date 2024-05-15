@@ -133,6 +133,7 @@ body{
     box-shadow: 0 10px 15px -3px rgb(4, 26, 59),0 4px 6px -4px rgb(7, 23, 59);
     margin-bottom: 20px;
     margin-right: 3%;
+    align-content: center;
 }
 
 .About .right .col1{
@@ -325,7 +326,7 @@ footer{
     padding-top: 100px;
 }
 
-@media(max-width: 950px){
+@media(max-width: 900px){
     .Intro{
         margin-bottom: 100px;
         margin-left: 20px;
