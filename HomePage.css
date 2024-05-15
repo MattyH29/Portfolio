@@ -132,18 +132,15 @@ body{
     border-radius: 12px;
     box-shadow: 0 10px 15px -3px rgb(4, 26, 59),0 4px 6px -4px rgb(7, 23, 59);
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 3%;
 }
 
 .About .right .col1{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .About .right .col2{
-    display: flex;
-    flex-direction: row;
-}
-.About .right .col3{
     display: flex;
     flex-direction: row;
 }
@@ -328,7 +325,7 @@ footer{
     padding-top: 100px;
 }
 
-@media(max-width: 850px){
+@media(max-width: 950px){
     .Intro{
         margin-bottom: 100px;
         margin-left: 20px;
@@ -350,6 +347,7 @@ footer{
     }
     .About .right{
         padding-left: 20px;
+        width: 100%;
     }
     .Projects{
         padding-left: 20px;
@@ -390,14 +388,6 @@ footer{
         margin-left: -.00000001%;
     }
 }
-@media(max-width: 1082px){
-    .About .right .col3{
-        flex-direction: column;
-        max-width: fit-content;
-        text-align: center;
-    }
-}
-
 @media(min-width: 1400px ){
     .Intro h1{
         margin-top: 110px;
