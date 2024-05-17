@@ -229,7 +229,7 @@ body{
     align-items: center;
     text-align: center;
     place-items: center;
-    padding-top: 100px;
+    padding-top: 110px;
 }
 .Contact .header{
     margin-bottom: 50px;
@@ -323,7 +323,7 @@ body{
 }
 
 footer{
-    padding-top: 100px;
+    padding-top: 1000px;
 }
 
 @media(max-width: 900px){
