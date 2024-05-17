@@ -178,6 +178,7 @@ body{
     width: 100%;
     padding-top: 100px;
     padding-left: 100px;
+
 }
 
 .Qual .left{
@@ -190,11 +191,8 @@ body{
     padding-right: 40px;
 }
 
-.Qual .Testimonial{
-    margin-bottom: 40px;
-}
 
-.Qual h1{
+.Qual .left h1{
     margin-bottom: 20px;
 }
 
@@ -223,10 +221,15 @@ body{
     margin-left: 25px;
 }
 
+.Testimonial {
+    padding-top: 20px;
+}
+
 .Contact{
     align-items: center;
     text-align: center;
     place-items: center;
+    padding-top: 80px;
 }
 .Contact .header{
     margin-bottom: 50px;
@@ -378,9 +381,6 @@ footer{
         margin-top: 50px;
         width: 100%;
     }
-    .Contact{
-        padding-top: 100px;
-    }
     .Contact .message .layer1{
         flex-direction: column;
     }
@@ -430,5 +430,4 @@ footer{
         padding-top: 10px;
         margin-left: -2%;
     }
-
 }
