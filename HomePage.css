@@ -355,6 +355,9 @@ footer{
     .Projects{
         padding-left: 20px;
     }
+    .Projects h1{
+        padding-left: 0px;
+    }
     .Projects .project{
         flex-direction: column;
     }
@@ -375,6 +378,9 @@ footer{
         padding-right: 20px;
         margin-top: 50px;
         width: 100%;
+    }
+    .Contact{
+        padding-top: 50px;
     }
     .Contact .message .layer1{
         flex-direction: column;
