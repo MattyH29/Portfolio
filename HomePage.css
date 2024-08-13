@@ -54,29 +54,40 @@ header .text a:hover{
     cursor: pointer;
 }
 
+
 body{
-    background-color: #6C7D9E;
-    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+    
+    background-image: linear-gradient(#8adaff,#035597);
 }
 
 .Intro{
-    margin-left: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
+    background-color: white;
+
 }
 
 .Intro .left{
     text-align: left;
     width: 80%;
-    margin-top: 100px;
 }
 
 .Intro .left h1{
     margin-bottom: 8px;
+    color: #000;
 }
 
 .Intro .left h3{
     margin-bottom: 10px;
+    color: #000;
+}
+
+.Intro .left p{
+    color: #000;
 }
 
 .Intro button{
@@ -108,7 +119,7 @@ body{
 .About{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #1779C9;
@@ -145,10 +156,16 @@ body{
 .Projects{
     padding-top: 100px;
     padding-right: 20px;
+    padding-bottom: 50px;
 }
 
 .Projects h1{
     padding-left: 100px;
+    color: #ffffff;
+}
+
+.Projects p{
+    color:#ffffff;
 }
 
 .Projects .project{
@@ -178,7 +195,6 @@ body{
     width: 100%;
     padding-top: 100px;
     padding-left: 100px;
-
 }
 
 .Qual .left{
@@ -213,7 +229,7 @@ body{
 }
 
 .Qual .link{
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .Qual .text{
@@ -230,6 +246,7 @@ body{
     text-align: center;
     place-items: center;
     padding-top: 110px;
+    padding-bottom: 30px;
 }
 .Contact .header{
     margin-bottom: 50px;
@@ -328,8 +345,9 @@ footer{
 
 @media(max-width: 900px){
     .Intro{
-        margin-bottom: 100px;
-        margin-left: 20px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 15px;
     }
     .Intro .right img{
         display: none;
