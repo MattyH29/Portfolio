@@ -398,6 +398,10 @@ footer{
         margin-top: 50px;
         width: 100%;
     }
+    .Contact .message{
+        width: 80%;
+        align-self: center;
+    }
     .Contact .message .layer1{
         flex-direction: column;
     }
