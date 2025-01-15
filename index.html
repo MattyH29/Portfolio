@@ -204,31 +204,33 @@
                 or fill out this form.
             </p>
         </div>
-        <form class="message" action="https://api.web3forms.com/submit" method="POST">
-            <div class="layer1">
-                <div class="left">
-                    <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
+        <div class="box">
+            <form class="message" action="https://api.web3forms.com/submit" method="POST">
+                <div class="layer1">
+                    <div class="left">
+                        <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
+                    </div>
+                    <div class="right">
+                        <input type="text" id="Surname" name="Surname" placeholder="Surname" required>
+                    </div>
                 </div>
-                <div class="right">
-                    <input type="text" id="Surname" name="Surname" placeholder="Surname" required>
+                <div class="layer2">
+                    <div class="left">
+                        <input type="email" id="Email" name="Email" placeholder="Email" required>
+                    </div>
+                    <div class="right">
+                        <input type="text" id="Subject" name="Subject" placeholder="Subject" required>
+                    </div>
                 </div>
-            </div>
-            <div class="layer2">
-                <div class="left">
-                    <input type="email" id="Email" name="Email" placeholder="Email" required>
+                <div class="layer3">
+                    <textarea  name="Message" placeholder="Message" rows="4" required></textarea>
                 </div>
-                <div class="right">
-                    <input type="text" id="Subject" name="Subject" placeholder="Subject" required>
+                <div class="layer4">
+                    <input type="submit" value="Submit">
+                    <input type="hidden" name="access_key" value="36409af1-6bc6-4154-a94d-92c5ad3dbc7b">
                 </div>
-            </div>
-            <div class="layer3">
-                <textarea  name="Message" placeholder="Message" rows="4" required></textarea>
-            </div>
-            <div class="layer4">
-                <input type="submit" value="Submit">
-                <input type="hidden" name="access_key" value="36409af1-6bc6-4154-a94d-92c5ad3dbc7b">
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </main>
 

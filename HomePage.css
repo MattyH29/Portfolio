@@ -398,9 +398,15 @@ footer{
         margin-top: 50px;
         width: 100%;
     }
+    .Contact .box{
+        background-color: #000;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        width: 100%;
+    }
     .Contact .message{
         width: 80%;
-        align-self: center;
     }
     .Contact .message .layer1{
         flex-direction: column;
