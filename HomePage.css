@@ -254,7 +254,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
-/*
+
 .Contact .message{
     display: flex;
     flex-direction: column;
@@ -265,7 +265,7 @@ body{
     padding-bottom: 20px;
     width: 700px;
 }
-*/
+
 .Contact .layer1{
     margin-top: 40px;
     display: flex;
