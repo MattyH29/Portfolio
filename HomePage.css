@@ -265,6 +265,7 @@ body{
     box-shadow: 0 10px 15px -3px black,0 4px 6px -4px black;
     background-color: #b7cfd4;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .Contact .layer1{
