@@ -3,14 +3,14 @@
 *{
     margin: 0;
     padding:0;
-    color:white;
+    color:rgb(255, 255, 255);
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
     text-decoration: none;
 }
 
 body{
-    background-color: #6C7D9E;
+    background-color: #3aa6e5;
     padding-top: 250px;
 }
 
@@ -29,7 +29,7 @@ body{
 
 button{
     padding: 10px;
-    background-color: #2d6ef0;
+    background-color: #286cf4;
     border: none;
     border-radius: 12px;
     width: 60%;
